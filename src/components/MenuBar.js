@@ -11,6 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import logo from '../Logo-typo.png';
 
 
 export default class MenuBar extends React.Component {
@@ -28,30 +29,31 @@ export default class MenuBar extends React.Component {
     });
   }
   render() {
+    console.log(this.props.links);
     return (
-      <div>
-        <Navbar color="dark" light expand="md">
-          <NavbarBrand href="/"><span className="text-decoration">Strefa Piołun</span></NavbarBrand>
+      // <div>
+        <Navbar color="dark" light expand="md" sticky="top">
+          <NavbarBrand href="/"><img src={logo} className="logo-typo" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/"><span className="h5 text-decoration">NASZE PROJEKTY</span></NavLink>
+                <NavLink href="#Projekty"><span className="h6 text-decoration">NASZE PROJEKTY</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap"><span className="h5 text-decoration">PATRONUJEMY</span></NavLink>
+                <NavLink href="#Patronaty"><span className="h6 text-decoration">PATRONUJEMY</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap"><span className="h5 text-decoration">KIM JESTEŚMY</span></NavLink>
+                <NavLink href="#Onas"><span className="h6 text-decoration">KIM JESTEŚMY</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap"><span className="h5 text-decoration">GDZIE NAS ZNALEŹĆ</span></NavLink>
+                <NavLink href="#Footer"><span className="h6 text-decoration">GDZIE NAS ZNALEŹĆ</span></NavLink>
               </NavItem>
              
             </Nav>
           </Collapse>
         </Navbar>
-      </div>
+      // </div>
     );
   }
 }

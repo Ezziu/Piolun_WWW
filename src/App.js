@@ -14,6 +14,14 @@ import Footer from './components/Footer.js';
 
 class App extends Component {
   render() {
+
+    let links =[
+      { label: 'Projekty', link: '#Projekty'},
+      { label: 'Patronaty', link: '#Patronaty'},
+      { label: 'Onas', link: '#Onas'},
+      { label: 'Stopka', link: '#Stopka'},
+    ];
+
     return (
       <div className="App">
         <MenuBar />

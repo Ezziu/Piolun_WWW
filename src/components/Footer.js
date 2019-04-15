@@ -11,6 +11,9 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+import logo from '../Logo-typo.png';
+import icoFacebook from '../ico-facebook.png';
+import email from '../email.png';
 
 
 export default class Footer extends React.Component {
@@ -29,36 +32,27 @@ export default class Footer extends React.Component {
   }
   render() {
     return (
-      <div>
+
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Stopka</NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+          <NavbarBrand href="/">
+              <img src={logo} className="logo-typo" />
+          </NavbarBrand>
+           <div className='text-plain Footer'>
+              <span>Stowarzyszenie Rekonstrukcji Fabularnej "Piołun"</span>         
+           </div>
+
+           <div>
+               <span><img src={email} className="ico"/></span>
+           </div>
+
             <Nav className="ml-auto" navbar>
-                            <NavItem>
-                <NavLink href="/components/">GDZIE NAS ZNALEŹĆ</NavLink>
+              <NavItem>
+                <NavLink href="https://www.facebook.com/stalkerzonex/"><img src={icoFacebook} className="ico"/></NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle nav caret>
-                  Options
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <DropdownItem>
-                    Option 1
-                  </DropdownItem>
-                  <DropdownItem>
-                    Option 2
-                  </DropdownItem>
-                  <DropdownItem divider />
-                  <DropdownItem>
-                    Reset
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
+              
             </Nav>
-          </Collapse>
+
         </Navbar>
-      </div>
     );
   }
 }

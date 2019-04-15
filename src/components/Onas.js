@@ -5,12 +5,14 @@ import { Card, CardImg, CardText, CardBody,
 const Onas = () => {
  return (
     <Container className='container'>
-     <Row className='onas'>
-      <Col sm="8">
-      	<p>
-	   	 <h1>Piołun - gwiazda która spadła z niebios</h1>
-	   	 Lorem ipsum randomeiro rendomizatorius, psychomantissium hajsostrzegum, meppozaurus rex, proezzium codissimus adsumus fundatores.
-	  	</p>
+     <Row>
+      <Col sm="12">
+	     <h1 className="text-title text-dark">PIOŁUN</h1>
+       <h2 className="text-subtitle">gwiazda, która spadła z niebios</h2>
+       <br/>
+       <h4 className="text-plain">
+	   	     Lorem ipsum randomeiro rendomizatorius, psychomantissium hajsostrzegum, meppozaurus rex, proezzium codissimus adsumus fundatores. Lorem ipsum randomeiro rendomizatorius, psychomantissium hajsostrzegum, meppozaurus rex, proezzium codissimus adsumus fundatores.
+        </h4>
 	  </Col>	
 	 </Row>
 	 </Container>

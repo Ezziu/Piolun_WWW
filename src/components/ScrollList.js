@@ -1,22 +1,11 @@
-// import React, { Component } from 'react';
-
-// const ScrollList = () => {
-// 	return (
-// 	    <p>
-// 	      <h1>ScrollList for NEWS</h1>
-// 	    </p>
-// 	)
-// };
-
-// export default ScrollList;	    
-
 import React, { Component } from 'react';
 import {
   Carousel,
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption
+  CarouselCaption,
+  Container
 } from 'reactstrap';
 
 const items = [
@@ -78,18 +67,19 @@ class ScrollList extends Component {
 
     const slides = items.map((item) => {
       return (
-        <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          key={item.src}
-        >
-          <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
-        </CarouselItem>
+          <CarouselItem
+            onExiting={this.onExiting}
+            onExited={this.onExited}
+            key={item.src}
+          >
+            <img src={item.src} alt={item.altText} />
+            <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          </CarouselItem>
       );
     });
 
     return (
+     <Container className='container'> 
       <Carousel
         activeIndex={activeIndex}
         next={this.next}
@@ -101,6 +91,7 @@ class ScrollList extends Component {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
       </Carousel>
+     </Container> 
     );
   }
 }

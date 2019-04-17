@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/Piolun_WWW/static/css/2.87156f0d.chunk.css"
   },
   {
-    "revision": "e6cd20556414674207eda7c5529c47b8",
+    "revision": "fef1a8f5fa6fe464082c0d192db0891c",
     "url": "/Piolun_WWW/index.html"
   }
 ];

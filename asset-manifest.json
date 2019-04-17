@@ -1,17 +1,17 @@
 {
-  "main.css": "/Piolun_WWW/static/css/main.d06c78bf.chunk.css",
-  "main.js": "/Piolun_WWW/static/js/main.e2f63de0.chunk.js",
-  "main.js.map": "/Piolun_WWW/static/js/main.e2f63de0.chunk.js.map",
+  "main.css": "/Piolun_WWW/static/css/main.dc02c2cb.chunk.css",
+  "main.js": "/Piolun_WWW/static/js/main.9b604f44.chunk.js",
+  "main.js.map": "/Piolun_WWW/static/js/main.9b604f44.chunk.js.map",
   "runtime~main.js": "/Piolun_WWW/static/js/runtime~main.4cef5419.js",
   "runtime~main.js.map": "/Piolun_WWW/static/js/runtime~main.4cef5419.js.map",
   "static/css/2.87156f0d.chunk.css": "/Piolun_WWW/static/css/2.87156f0d.chunk.css",
   "static/js/2.d82f76a5.chunk.js": "/Piolun_WWW/static/js/2.d82f76a5.chunk.js",
   "static/js/2.d82f76a5.chunk.js.map": "/Piolun_WWW/static/js/2.d82f76a5.chunk.js.map",
   "index.html": "/Piolun_WWW/index.html",
-  "precache-manifest.7da0a5187c1a084c1cc26e789094ac26.js": "/Piolun_WWW/precache-manifest.7da0a5187c1a084c1cc26e789094ac26.js",
+  "precache-manifest.d416a36396c6c92d7fcd1d77822960d8.js": "/Piolun_WWW/precache-manifest.d416a36396c6c92d7fcd1d77822960d8.js",
   "service-worker.js": "/Piolun_WWW/service-worker.js",
   "static/css/2.87156f0d.chunk.css.map": "/Piolun_WWW/static/css/2.87156f0d.chunk.css.map",
-  "static/css/main.d06c78bf.chunk.css.map": "/Piolun_WWW/static/css/main.d06c78bf.chunk.css.map",
+  "static/css/main.dc02c2cb.chunk.css.map": "/Piolun_WWW/static/css/main.dc02c2cb.chunk.css.map",
   "static/media/Logo-main.png": "/Piolun_WWW/static/media/Logo-main.ec6901e1.png",
   "static/media/App.css": "/Piolun_WWW/static/media/patronaty.5de34cad.png"
 }

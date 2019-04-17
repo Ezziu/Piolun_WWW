@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Piolun_WWW/precache-manifest.ad6ca676e09e2b9be424ee012b9a308e.js"
+  "/Piolun_WWW/precache-manifest.02ffb88bd9b318369cc0ad7c8d017309.js"
 );
 
 workbox.clientsClaim();

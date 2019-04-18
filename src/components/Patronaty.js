@@ -6,12 +6,12 @@ const Patronaty = (props) => {
   return (
     <Container className='container'>
       <p>
-	   <h1 className="text-title">PATRONUJEMY</h1>
+	   <h2 className="text-title lalign">PATRONUJEMY</h2>
 	  </p>
-	  <Row className="patronaty">
+	  <Row className="patronaty-content">
 	   <Col sm="8">
       	<Card>
-	      <CardImg top width="100%" src='http://nyskon.pl/wp-content/uploads/2019/02/Nyskon-net-banner.png' alt="Card image cap" />
+	      <CardImg top width="100%" src='http://nyskon.pl/wp-content/uploads/2019/02/Nyskon-net-banner.png' alt="Card image cap" href="https://www.facebook.com/nyskon/" />
 	      <CardBody>
 	        <CardTitle></CardTitle>
 	        <CardSubtitle></CardSubtitle>

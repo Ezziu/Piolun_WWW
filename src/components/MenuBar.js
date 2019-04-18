@@ -12,6 +12,7 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 import logo from '../Logo-typo.png';
+import icoFacebookG from '../ico-facebook-g.png';
 
 
 export default class MenuBar extends React.Component {
@@ -31,29 +32,30 @@ export default class MenuBar extends React.Component {
   render() {
     console.log(this.props.links);
     return (
-      // <div>
         <Navbar color="dark" light expand="md" sticky="top">
-          <NavbarBrand href="/"><img src={logo} className="logo-typo" /></NavbarBrand>
+          <NavbarBrand href="/index.html"><img src={logo} className="logo-typo" /></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#Projekty"><span className="h6 text-decoration">NASZE PROJEKTY</span></NavLink>
+                <NavLink href="#Projekty" onClick={this.toggle}><span className="text-decoration">NASZE PROJEKTY</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Patronaty"><span className="h6 text-decoration">PATRONUJEMY</span></NavLink>
+                <NavLink href="#Patronaty" onClick={this.toggle}><span className="text-decoration">PATRONUJEMY</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Onas"><span className="h6 text-decoration">KIM JESTEŚMY</span></NavLink>
+                <NavLink href="#Onas" onClick={this.toggle}><span className="text-decoration">KIM JESTEŚMY</span></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Footer"><span className="h6 text-decoration">GDZIE NAS ZNALEŹĆ</span></NavLink>
+                <NavLink href="#Kontakt" onClick={this.toggle}><span className="text-decoration">GDZIE NAS ZNALEŹĆ</span></NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="https://www.facebook.com/stalkerzonex"> <img src={icoFacebookG} className="ico-sm"/> </NavLink>
+              </NavItem>   
              
             </Nav>
           </Collapse>
         </Navbar>
-      // </div>
     );
   }
 }

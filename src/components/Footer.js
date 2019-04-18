@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {
+  Col,
+  Row,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -11,7 +13,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-import logo from '../Logo-typo.png';
+import logo from '../Logo-typo-dark.png';
 import icoFacebook from '../ico-facebook.png';
 import email from '../email.png';
 
@@ -32,27 +34,26 @@ export default class Footer extends React.Component {
   }
   render() {
     return (
-
-        <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">
+        <Navbar color="light" light expand="md" className="Footer-h">   
+        <Row className="Footer">
+          <Col sm='3'>
+            <NavbarBrand href="/index.html">
               <img src={logo} className="logo-typo" />
-          </NavbarBrand>
-           <div className='text-plain Footer'>
-              <span>Stowarzyszenie Rekonstrukcji Fabularnej "Piołun"</span>         
-           </div>
+            </NavbarBrand>              
+          </Col>
+          <Col sm='4'>  
+            <div className='text-plain ralign'>Stowarzyszenie Rekonstrukcji Fabularnej "Piołun"</div>         
+          </Col> 
+          <Col sm='2'> 
+            <div className='text-plain ralign'>KONTAKT<br/>strefa.piolun@gmail.com</div>
+          </Col>  
+          <Col sm='3'>
+            <NavLink href="https://www.facebook.com/stalkerzonex/"><img src={icoFacebook} className="ico"/></NavLink>
+          </Col> 
+        </Row> 
 
-           <div>
-               <span><img src={email} className="ico"/></span>
-           </div>
+        </Navbar> 
 
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="https://www.facebook.com/stalkerzonex/"><img src={icoFacebook} className="ico"/></NavLink>
-              </NavItem>
-              
-            </Nav>
-
-        </Navbar>
     );
   }
 }

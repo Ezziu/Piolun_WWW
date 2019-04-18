@@ -7,10 +7,10 @@ const Onas = () => {
     <Container className='container'>
      <Row>
       <Col sm="12">
-	     <h1 className="text-title text-dark">PIOŁUN</h1>
-       <h2 className="text-subtitle">gwiazda, która spadła z niebios</h2>
+	     <h2 className="text-title text-dark ralign">PIOŁUN</h2>
+       <h3 className="text-subtitle ralign">gwiazda, która spadła z niebios</h3>
        <br/>
-       <h4 className="text-plain">
+       <h4 className="text-plain ralign">
 	   	     Lorem ipsum randomeiro rendomizatorius, psychomantissium hajsostrzegum, meppozaurus rex, proezzium codissimus adsumus fundatores. Lorem ipsum randomeiro rendomizatorius, psychomantissium hajsostrzegum, meppozaurus rex, proezzium codissimus adsumus fundatores.
         </h4>
 	  </Col>	

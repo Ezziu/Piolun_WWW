@@ -1,61 +1,52 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 @import url(https://fonts.googleapis.com/css?family=Rajdhani);
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Teko);
 
 .App {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: space-around;
   text-align: center;
+
 }
 
 .App-logo {
-  /*animation: App-logo-spin infinite 20s linear;*/
-  height:30vmin;
+  height:40vmin;
   pointer-events: none;
 }
 
 .App-header {
   background-image: url("../src/header.png");
-   background-size: cover;
-  /*background-color: #010A19;*/
-    padding-top: 10vh;
+  background-size: cover;
+  padding-top: 5vh;
   padding-bottom: 10vh;
-  /*min-height:40vh;*/
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(5px + 1vmin);
-  color: white;
+/*  font-size: calc(5px + 1vmin);*/
 }
 
 .App-link {
   color: #61dafb;
 }
 
-.cardList {
-  flex: 1;
-  justify-content: space-around;
-}
-
-.patronaty {
-  min-height: 30vh;
-  flex: 1;
-  justify-content: flex-end;
+.container {
+  padding-top: 12vh;
+  padding-bottom: 12vh;
 }
 
 .Patronaty {
   background-image: url("../src/patronaty.png");
   opacity: 0.75;
   background-size: cover;
-  /*justify-content: space-around;*/
-/*  align-items: center;*/
 }
 
+.patronaty-content {
+  min-height: 30vh;
+  flex: 1;
+  justify-content: flex-end;
+}
 
 .Onas {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
   min-height: 20vh;
   flex: 1;
   justify-content: space-around;
@@ -64,9 +55,7 @@
 }
 
 .Placeholder {
-/*  padding-top: 35vh;
-  padding-bottom: 10vh;*/
-  min-height: 50vh;
+  height: 70vh;
   flex: 1;
   justify-content: space-around;
   background-position: center;
@@ -75,27 +64,57 @@
   background-size: cover;
 }
 
+.Footer-h {
+  height: 20vh;
+  min-height: 200px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .Footer {
   flex: 1;
-  flex-direction: row;
-  justify-content: space-around;
+  display: flex;
+/*  flex-direction: row;*/
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Projekty {
-    /*background-color: #000C19;*/
 }
 
 .Patronaty {
   background-image: url("../src/patronaty.png");
   opacity: 0.75;
   background-size: cover;
-  /*justify-content: space-around;*/
-/*  align-items: center;*/
 }
 
-.container {
-  padding-top: 7vh;
-  padding-bottom: 5vh;
+.card-body {
+  background-color: #f8f9fa;
+}
+
+.logo-typo {
+  height: 5vh;
+  opacity: 0.85;
+}
+
+.ico {
+  height: 5vh;
+  opacity: 0.85;
+}
+
+.ico-sm {
+  height: 24px;
+}
+
+.Watermark {
+  color:#FFF;
+  font-size: small;
+  padding: 10px;
+  background-color: #343a40;
+  opacity: 0.55;
 }
 
 .text-title {
@@ -111,9 +130,11 @@
 }
 
 .text-decoration {
-  color:  #FFF0D8;
   font-family: Rajdhani, sans-serif;
   font-weight: 500;
+  /*color:  #FFF0D8;*/
+  color: #ffcc66;
+  font-size: 1.0rem;
 
 }
 
@@ -131,16 +152,16 @@
   color: #343a40;
 }
 
-.card-body {
-  background-color: #f8f9fa;
+.ralign {
+  text-align: left;
 }
 
-.logo-typo {
-  height: 35px;
+.lalign {
+  text-align: right;
 }
 
-.ico {
-  height: 35px;
+.calign {
+  text-align: center;
 }
 
 @keyframes App-logo-spin {

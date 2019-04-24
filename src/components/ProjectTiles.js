@@ -5,7 +5,7 @@ import { Card, CardImg, CardText, CardBody,
 const ProjectTiles = (props) => {
   return (
   	<Container className='container'>
-	    <h2 className="text-title text-dark">PROJEKTY</h2>
+	    <h2 className="text-title text-dark ralign">NASZE PROJEKTY</h2>
     <Row>
      <Col sm="4">
       <Card style={{width:"100%"}}>
@@ -14,7 +14,7 @@ const ProjectTiles = (props) => {
           <CardTitle><h3 className="text-subtitle">Stalker ZONA X</h3></CardTitle>
           <CardSubtitle></CardSubtitle>
           <CardText><p className="text-plain ralign">Nadchodząca edycja WIĘCEJ MOCNIEJ LEPIEJ SZYBCIEJ TAK w oscarowej lokalizacji GWIAZDY LANS ZIMNE PIWO powiedz znajomym!</p></CardText>
-          <Button href="https://www.facebook.com/stalkerzonex/"><span className="">WIĘCEJ</span></Button>
+          <Button href="https://www.facebook.com/stalkerzonex/"><span className="text-button">WIĘCEJ</span></Button>
         </CardBody>
       </Card>
       </Col>
@@ -25,7 +25,7 @@ const ProjectTiles = (props) => {
           <CardTitle><h3 className="text-subtitle">Piołun: Strefa Zero</h3></CardTitle>
           <CardSubtitle></CardSubtitle>
           <CardText className="text-plain ralign">Piołun: Strefa Zero to autorski projekt inspirowany klasyką gatunku: grą planszową Talisman i książką “Piknik na skraju drogi”. </CardText>
-          <Button href="https://www.facebook.com/stalkerzonex/"><span className="">WIĘCEJ</span></Button>
+          <Button href="https://www.facebook.com/stalkerzonex/"><span className="text-button">WIĘCEJ</span></Button>
         </CardBody>
       </Card>
        </Col>
@@ -36,7 +36,7 @@ const ProjectTiles = (props) => {
           <CardTitle><h3 className="text-subtitle">Strefa Na Skraju Nysy</h3></CardTitle>
           <CardSubtitle></CardSubtitle>
           <CardText className="text-plain ralign"> Zona jest niebezpieczna i nieprzewidywalna, ale posiadamy tutaj swój bezpieczny kąt. To własnie Strefa na skraju Nysy.</CardText>
-          <Button href="https://www.facebook.com/nyskon/"><span className="">WIĘCEJ</span></Button>
+          <Button href="https://www.facebook.com/nyskon/"><span className="text-button">WIĘCEJ</span></Button>
         </CardBody>
       </Card>
       </Col>

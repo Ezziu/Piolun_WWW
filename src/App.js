@@ -34,7 +34,7 @@ class App extends Component {
           <Footer />
         </div>
         <div className="Watermark">
-          <span>AV 2019</span>
+          <span>© AV 2019</span>
         </div>
       </div>
     );

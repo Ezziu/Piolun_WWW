@@ -42,10 +42,12 @@ export default class Footer extends React.Component {
             </NavbarBrand>              
           </Col>
           <Col sm='4'>  
-            <div className='text-plain ralign'>Stowarzyszenie Rekonstrukcji Fabularnej "Piołun"</div>         
+            <div className='text-plain'><span>Stowarzyszenie Rekonstrukcji Fabularnej<br/> "Piołun"</span></div>         
           </Col> 
           <Col sm='2'> 
-            <div className='text-plain ralign'>KONTAKT<br/>strefa.piolun@gmail.com</div>
+           <div className='tab'> 
+            <div className='text-plain ralign'><span>KONTAKT</span><br/><span className="text-active" href="mailto:strefa.piolun@gmail.com">strefa.piolun@gmail.com</span></div>
+           </div> 
           </Col>  
           <Col sm='3'>
             <NavLink href="https://www.facebook.com/stalkerzonex/"><img src={icoFacebook} className="ico"/></NavLink>

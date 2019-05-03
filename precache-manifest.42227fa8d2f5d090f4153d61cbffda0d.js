@@ -20,15 +20,15 @@ self.__precacheManifest = [
     "url": "/Piolun_WWW/static/js/runtime~main.4cef5419.js"
   },
   {
-    "revision": "d9da60cbace71ad5103f",
-    "url": "/Piolun_WWW/static/js/main.d9da60cb.chunk.js"
+    "revision": "4c1f092ee427f6c4adb3",
+    "url": "/Piolun_WWW/static/js/main.4c1f092e.chunk.js"
   },
   {
     "revision": "e0703b0d150b4a2e808a",
     "url": "/Piolun_WWW/static/js/2.e0703b0d.chunk.js"
   },
   {
-    "revision": "d9da60cbace71ad5103f",
+    "revision": "4c1f092ee427f6c4adb3",
     "url": "/Piolun_WWW/static/css/main.3c29afd4.chunk.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/Piolun_WWW/static/css/2.5a71904b.chunk.css"
   },
   {
-    "revision": "46894e9977dd40337adab8a1a00d3698",
+    "revision": "394c02f962b3423ae30a76b5606cfd3f",
     "url": "/Piolun_WWW/index.html"
   }
 ];
